@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+}
+
+body {
+    background-color: pink;
+}
+
+.h1{
+    text-align: center;
+    padding: 0%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    height: 290px;
+}
+
+.h1img {
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 530.29px;
+}
+
+.headline {
+    z-index: 2;
+    color: white;
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    text-align: center;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+img {
+    padding-top: 0px;
+}
+
+.img {
+    width: 360px;
+    height: 360px;
+}
+
+.img:hover {
+    animation-name: heart;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+}
+
+@keyframes heart {
+    from {
+        width: 360px;
+        height: 360px;
+    }
+
+    to {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.one {
+    text-align: center;
+}
+
+.two {
+    text-align: center;
+}
+
+/* @media screen (max-width: 1560px;) {
+    .h1img {
+        padding-right: 10px;
+        background-color: white;
+    }
+} */
+
+.img1{
+    background-image: url(Image/image.png);
+    height: 290px;
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+
+.img1:hover{
+    border: 2px solid white;
+}
