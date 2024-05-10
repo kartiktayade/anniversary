@@ -82,7 +82,7 @@ img {
 } */
 
 .img1{
-    background-image: url(Image/image.png);
+    background-image: url(image.png);
     height: 290px;
     width: 500px;
     background-size: contain;
