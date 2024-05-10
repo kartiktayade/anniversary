@@ -15,14 +15,14 @@ body {
     height: 290px;
 }
 
-.h1img {
+/* .h1img {
     height: 300px;
     position: absolute;
     z-index: 1;
     text-align: center;
     width: 530.29px;
 }
-
+ */
 .headline {
     z-index: 2;
     color: white;
